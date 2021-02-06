@@ -4,7 +4,7 @@
 Point::Point():m_x(0),m_y(0)
 {
 }
-Point::Point(int a, int b):m_x(a),m_b(b)
+Point::Point(int a, int b):m_a(a),m_b(b)
 {
 }
 Point::Point(const Point& ref):m_a(ref.m_a), m_b(ref.m_b)
