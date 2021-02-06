@@ -6,3 +6,4 @@ run: customer
 	./$^
 clean:
 	rm *.out
+	
