@@ -9,8 +9,8 @@ enum Quadrant {
 };
 
 class Point {
-  int m_x;
-  int m_y;
+  int m_a;
+  int m_b;
   public:
   Point();
   Point(int,int);
