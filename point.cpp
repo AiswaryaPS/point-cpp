@@ -1,7 +1,7 @@
 #include "Point.h"
 #include <cmath>
 #include <iostream>
-Point::Point():m_x(0),m_y(0)
+Point::Point():m_a(0),m_b(0)
 {
 }
 Point::Point(int a, int b):m_a(a),m_b(b)
