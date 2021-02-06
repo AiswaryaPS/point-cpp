@@ -26,21 +26,21 @@ double Point::distanceFromOrigin()  const
     return sqrt((m_a*m_a)+(m_b*m_b));
 }
 bool Point::isOrigin() const{
-	if(m_x==0 && m_y==0)
+	if(m_a==0 && m_b==0)
 		return true;
     else    
 	    return false;
 }
 
 bool Point::isOnXAxis() const{
-	if((m_x>0 || m_x<0) && m_y==0)
+	if((m_a>0 || m_a<0) && m_b==0)
 		return true;
     else   
 	    return false;
 }
 
 bool Point::isOnYAxis() const{ 
-	if((m_y>0 || m_y<0) && m_x==0)
+	if((m_b>0 || m_b<0) && m_b==0)
 		return true;
     else    
 	    return false;
@@ -48,8 +48,8 @@ bool Point::isOnYAxis() const{
 
 void Point::display() const 
 {
-    std::cout << "x-axis" << m_x
-              << "y-axis" << m_y;
+    std::cout << "x-axis" << m_a;
+              << "y-axis" << m_b;
 }
 
 
